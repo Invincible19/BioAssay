@@ -1,0 +1,49 @@
+E:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe.config
+E:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe
+E:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.pdb
+E:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.xml
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.LOGIN.resources
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Resources.resources
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.vbproj.GenerateResource.Cache
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.exe
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.xml
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.pdb
+E:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Guna.UI2.dll
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Dashboard.resources
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Progressbar.resources
+C:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe.config
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.exe
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.xml
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.pdb
+C:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe
+C:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.pdb
+C:\vb.net practive\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.xml
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.vbprojResolveAssemblyReference.cache
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Dashboard.resources
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Progressbar.resources
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.LOGIN.resources
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Resources.resources
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.vbproj.GenerateResource.Cache
+C:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Settings.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe.config
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.exe
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.xml
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.pdb
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.pdb
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.xml
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.vbprojResolveAssemblyReference.cache
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Dashboard.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Progressbar.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.LOGIN.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Resources.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Settings.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.vbproj.GenerateResource.Cache
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.vbprojResolveAssemblyReference.cache
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Settings.resources
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.LogHistory.resources
+E:\vb.net practive\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Organizational_Chart.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe.config
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.exe
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.xml
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.pdb

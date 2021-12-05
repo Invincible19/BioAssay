@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{211B95A9-9E5B-4C73-963E-DBE4F6E8E707}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Biohin_moko.My.MyApplication</StartupObject>
+    <RootNamespace>Biohin_moko</RootNamespace>
+    <AssemblyName>Biohin_moko</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Biohin_moko.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Biohin_moko.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Utility, Version=5.0.30709.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.Expression.WebServer, Version=5.0.30709.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackupnRestore.Designer.vb">
+      <DependentUpon>BackupnRestore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BackupnRestore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogHistory.Designer.vb">
+      <DependentUpon>LogHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageAccount.Designer.vb">
+      <DependentUpon>ManageAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizational-Chart.Designer.vb">
+      <DependentUpon>Organizational-Chart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Organizational-Chart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Progressbar.Designer.vb">
+      <DependentUpon>Progressbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Progressbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BackupnRestore.resx">
+      <DependentUpon>BackupnRestore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogHistory.resx">
+      <DependentUpon>LogHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageAccount.resx">
+      <DependentUpon>ManageAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizational-Chart.resx">
+      <DependentUpon>Organizational-Chart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progressbar.resx">
+      <DependentUpon>Progressbar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health _Monochromatic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_medicine_b1ol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldwide_delivery_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microscope_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctors_bag_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stethoscope_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clinic_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctors_bag_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nurse_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_export_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time_limit_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cll1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cll2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cll3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cll4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cll5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4034229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5949713.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4562493.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hypertension_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hypertension_100px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

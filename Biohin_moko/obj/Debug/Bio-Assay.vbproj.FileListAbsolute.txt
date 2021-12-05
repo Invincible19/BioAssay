@@ -1,0 +1,15 @@
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Dashboard.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.LogHistory.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Organizational_Chart.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Progressbar.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.LOGIN.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Resources.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.Settings.resources
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Bio-Assay.vbproj.GenerateResource.Cache
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.exe
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.xml
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.pdb
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe.config
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.exe
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.pdb
+C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\bin\Debug\Biohin_moko.xml
