@@ -102,18 +102,6 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="LogHistory.Designer.vb">
       <DependentUpon>LogHistory.vb</DependentUpon>
     </Compile>
@@ -160,6 +148,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Sample.Designer.vb">
+      <DependentUpon>Sample.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sample.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sample2.Designer.vb">
+      <DependentUpon>Sample2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sample2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Settings.Designer.vb">
       <DependentUpon>Settings.vb</DependentUpon>
     </Compile>
@@ -176,12 +176,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogHistory.resx">
       <DependentUpon>LogHistory.vb</DependentUpon>
@@ -203,6 +197,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sample.resx">
+      <DependentUpon>Sample.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sample2.resx">
+      <DependentUpon>Sample2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.vb</DependentUpon>
@@ -366,6 +366,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_plus_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_96px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_page_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_page_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_page_48px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_96px3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_new_64px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

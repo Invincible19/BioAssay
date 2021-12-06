@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form3
+Partial Class Sample
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,10 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2CheckBox17 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2CheckBox16 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2CheckBox15 = New Guna.UI2.WinForms.Guna2CheckBox()
@@ -30,6 +33,17 @@ Partial Class Form3
         Me.Guna2CheckBox13 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2CheckBox12 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2CheckBox11 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox10 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox9 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox7 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox6 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox5 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox4 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox3 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox2 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox1 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2CheckBox8 = New Guna.UI2.WinForms.Guna2CheckBox()
+        Me.Guna2GroupBox2 = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2CheckBox23 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2CheckBox22 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2CheckBox21 = New Guna.UI2.WinForms.Guna2CheckBox()
@@ -39,9 +53,6 @@ Partial Class Form3
         Me.Guna2TextBox12 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Guna2TextBox11 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2GradientPanel2 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Me.Guna2CheckBox2 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox1 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Guna2TextBox10 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -49,29 +60,11 @@ Partial Class Form3
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Guna2TextBox8 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.Guna2CheckBox5 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox4 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox3 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
-        Me.Guna2CheckBox10 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox7 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Guna2CheckBox6 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.Guna2CheckBox9 = New Guna.UI2.WinForms.Guna2CheckBox()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2CheckBox8 = New Guna.UI2.WinForms.Guna2CheckBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GroupBox2 = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -85,12 +78,79 @@ Partial Class Form3
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Guna2GroupBox1.SuspendLayout()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2GradientPanel1.SuspendLayout()
+        Me.Guna2GroupBox1.SuspendLayout()
         Me.Guna2GroupBox2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.Guna2Button1)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(981, 54)
+        Me.Panel1.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(51, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(299, 37)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "MEDICAL DEPARTMENT"
+        '
+        'Guna2GradientPanel1
+        '
+        Me.Guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(198, Byte), Integer))
+        Me.Guna2GradientPanel1.Location = New System.Drawing.Point(0, 54)
+        Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
+        Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
+        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(981, 16)
+        Me.Guna2GradientPanel1.TabIndex = 2
+        '
+        'Guna2GroupBox1
+        '
+        Me.Guna2GroupBox1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox2)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox17)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox16)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox15)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox14)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox13)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox12)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox11)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox10)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox9)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox7)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox6)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox5)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox4)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox3)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox1)
+        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox8)
+        Me.Guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(198, Byte), Integer))
+        Me.Guna2GroupBox1.FillColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2GroupBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GroupBox1.ForeColor = System.Drawing.Color.White
+        Me.Guna2GroupBox1.Location = New System.Drawing.Point(28, 87)
+        Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
+        Me.Guna2GroupBox1.ShadowDecoration.Parent = Me.Guna2GroupBox1
+        Me.Guna2GroupBox1.Size = New System.Drawing.Size(925, 267)
+        Me.Guna2GroupBox1.TabIndex = 3
+        Me.Guna2GroupBox1.Text = "MEDICAL HISTORY"
         '
         'Guna2CheckBox17
         '
@@ -245,6 +305,274 @@ Partial Class Form3
         Me.Guna2CheckBox11.UncheckedState.BorderThickness = 0
         Me.Guna2CheckBox11.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
         Me.Guna2CheckBox11.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox10
+        '
+        Me.Guna2CheckBox10.AutoSize = True
+        Me.Guna2CheckBox10.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox10.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox10.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox10.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox10.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox10.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox10.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox10.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox10.Location = New System.Drawing.Point(322, 113)
+        Me.Guna2CheckBox10.Name = "Guna2CheckBox10"
+        Me.Guna2CheckBox10.Size = New System.Drawing.Size(253, 24)
+        Me.Guna2CheckBox10.TabIndex = 46
+        Me.Guna2CheckBox10.Text = "Lung Problems : Prolonged Cough"
+        Me.Guna2CheckBox10.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox10.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox10.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox10.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox10.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox9
+        '
+        Me.Guna2CheckBox9.AutoSize = True
+        Me.Guna2CheckBox9.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox9.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox9.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox9.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox9.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox9.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox9.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox9.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox9.Location = New System.Drawing.Point(322, 83)
+        Me.Guna2CheckBox9.Name = "Guna2CheckBox9"
+        Me.Guna2CheckBox9.Size = New System.Drawing.Size(77, 24)
+        Me.Guna2CheckBox9.TabIndex = 45
+        Me.Guna2CheckBox9.Text = "Mumps"
+        Me.Guna2CheckBox9.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox9.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox9.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox9.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox9.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox7
+        '
+        Me.Guna2CheckBox7.AutoSize = True
+        Me.Guna2CheckBox7.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox7.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox7.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox7.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox7.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox7.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox7.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox7.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox7.Location = New System.Drawing.Point(322, 53)
+        Me.Guna2CheckBox7.Name = "Guna2CheckBox7"
+        Me.Guna2CheckBox7.Size = New System.Drawing.Size(106, 24)
+        Me.Guna2CheckBox7.TabIndex = 44
+        Me.Guna2CheckBox7.Text = "Chicken Pox"
+        Me.Guna2CheckBox7.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox7.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox7.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox7.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox7.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox6
+        '
+        Me.Guna2CheckBox6.AutoSize = True
+        Me.Guna2CheckBox6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox6.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox6.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox6.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox6.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox6.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox6.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox6.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox6.Location = New System.Drawing.Point(17, 233)
+        Me.Guna2CheckBox6.Name = "Guna2CheckBox6"
+        Me.Guna2CheckBox6.Size = New System.Drawing.Size(81, 24)
+        Me.Guna2CheckBox6.TabIndex = 43
+        Me.Guna2CheckBox6.Text = "Measles"
+        Me.Guna2CheckBox6.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox6.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox6.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox6.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox6.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox5
+        '
+        Me.Guna2CheckBox5.AutoSize = True
+        Me.Guna2CheckBox5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox5.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox5.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox5.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox5.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox5.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox5.Location = New System.Drawing.Point(17, 203)
+        Me.Guna2CheckBox5.Name = "Guna2CheckBox5"
+        Me.Guna2CheckBox5.Size = New System.Drawing.Size(161, 24)
+        Me.Guna2CheckBox5.TabIndex = 42
+        Me.Guna2CheckBox5.Text = "Cyst/Tumors/Cancer"
+        Me.Guna2CheckBox5.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox5.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox5.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox5.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox4
+        '
+        Me.Guna2CheckBox4.AutoSize = True
+        Me.Guna2CheckBox4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox4.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox4.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox4.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox4.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox4.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox4.Location = New System.Drawing.Point(17, 173)
+        Me.Guna2CheckBox4.Name = "Guna2CheckBox4"
+        Me.Guna2CheckBox4.Size = New System.Drawing.Size(214, 24)
+        Me.Guna2CheckBox4.TabIndex = 41
+        Me.Guna2CheckBox4.Text = "Skin/Lymph Glands Disorder"
+        Me.Guna2CheckBox4.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox4.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox4.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox4.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox3
+        '
+        Me.Guna2CheckBox3.AutoSize = True
+        Me.Guna2CheckBox3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox3.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox3.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox3.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox3.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox3.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox3.Location = New System.Drawing.Point(17, 143)
+        Me.Guna2CheckBox3.Name = "Guna2CheckBox3"
+        Me.Guna2CheckBox3.Size = New System.Drawing.Size(222, 24)
+        Me.Guna2CheckBox3.TabIndex = 40
+        Me.Guna2CheckBox3.Text = "Rheumatism/Gout/Joint Pains"
+        Me.Guna2CheckBox3.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox3.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox3.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox3.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox2
+        '
+        Me.Guna2CheckBox2.AutoSize = True
+        Me.Guna2CheckBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox2.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox2.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox2.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox2.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox2.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox2.Location = New System.Drawing.Point(17, 113)
+        Me.Guna2CheckBox2.Name = "Guna2CheckBox2"
+        Me.Guna2CheckBox2.Size = New System.Drawing.Size(247, 24)
+        Me.Guna2CheckBox2.TabIndex = 39
+        Me.Guna2CheckBox2.Text = "Prostate/Ovary/Uterine Disorders"
+        Me.Guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox2.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox2.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox2.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox1
+        '
+        Me.Guna2CheckBox1.AutoSize = True
+        Me.Guna2CheckBox1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox1.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox1.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox1.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox1.Location = New System.Drawing.Point(17, 83)
+        Me.Guna2CheckBox1.Name = "Guna2CheckBox1"
+        Me.Guna2CheckBox1.Size = New System.Drawing.Size(219, 24)
+        Me.Guna2CheckBox1.TabIndex = 38
+        Me.Guna2CheckBox1.Text = "Sexually Transmitted Disease"
+        Me.Guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox1.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox1.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox1.UseVisualStyleBackColor = False
+        '
+        'Guna2CheckBox8
+        '
+        Me.Guna2CheckBox8.AutoSize = True
+        Me.Guna2CheckBox8.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CheckBox8.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox8.CheckedState.BorderRadius = 2
+        Me.Guna2CheckBox8.CheckedState.BorderThickness = 0
+        Me.Guna2CheckBox8.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CheckBox8.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
+        Me.Guna2CheckBox8.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2CheckBox8.ForeColor = System.Drawing.Color.Black
+        Me.Guna2CheckBox8.Location = New System.Drawing.Point(17, 53)
+        Me.Guna2CheckBox8.Name = "Guna2CheckBox8"
+        Me.Guna2CheckBox8.Size = New System.Drawing.Size(121, 24)
+        Me.Guna2CheckBox8.TabIndex = 37
+        Me.Guna2CheckBox8.Text = "Kidney Stones"
+        Me.Guna2CheckBox8.UncheckedState.BorderColor = System.Drawing.Color.White
+        Me.Guna2CheckBox8.UncheckedState.BorderRadius = 2
+        Me.Guna2CheckBox8.UncheckedState.BorderThickness = 0
+        Me.Guna2CheckBox8.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.Guna2CheckBox8.UseVisualStyleBackColor = False
+        '
+        'Guna2GroupBox2
+        '
+        Me.Guna2GroupBox2.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox23)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox22)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox21)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox20)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox19)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox18)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox12)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label16)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox11)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label15)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox10)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label14)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox9)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label13)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox8)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label12)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox7)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label11)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2Separator1)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label10)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label9)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label8)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox6)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label7)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox5)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label6)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox4)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label5)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox3)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label4)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox2)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label3)
+        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox1)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label2)
+        Me.Guna2GroupBox2.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(198, Byte), Integer))
+        Me.Guna2GroupBox2.FillColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2GroupBox2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GroupBox2.ForeColor = System.Drawing.Color.White
+        Me.Guna2GroupBox2.Location = New System.Drawing.Point(28, 371)
+        Me.Guna2GroupBox2.Name = "Guna2GroupBox2"
+        Me.Guna2GroupBox2.ShadowDecoration.Parent = Me.Guna2GroupBox2
+        Me.Guna2GroupBox2.Size = New System.Drawing.Size(925, 319)
+        Me.Guna2GroupBox2.TabIndex = 55
+        Me.Guna2GroupBox2.Text = "PHYSICAL EXAMINATION"
         '
         'Guna2CheckBox23
         '
@@ -443,61 +771,6 @@ Partial Class Form3
         Me.Guna2TextBox11.Size = New System.Drawing.Size(171, 28)
         Me.Guna2TextBox11.TabIndex = 33
         '
-        'Guna2GradientPanel2
-        '
-        Me.Guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(198, Byte), Integer))
-        Me.Guna2GradientPanel2.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
-        Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
-        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(933, 15)
-        Me.Guna2GradientPanel2.TabIndex = 0
-        '
-        'Guna2CheckBox2
-        '
-        Me.Guna2CheckBox2.AutoSize = True
-        Me.Guna2CheckBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox2.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox2.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox2.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox2.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox2.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox2.Location = New System.Drawing.Point(17, 113)
-        Me.Guna2CheckBox2.Name = "Guna2CheckBox2"
-        Me.Guna2CheckBox2.Size = New System.Drawing.Size(247, 24)
-        Me.Guna2CheckBox2.TabIndex = 39
-        Me.Guna2CheckBox2.Text = "Prostate/Ovary/Uterine Disorders"
-        Me.Guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox2.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox2.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox2.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox1
-        '
-        Me.Guna2CheckBox1.AutoSize = True
-        Me.Guna2CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox1.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox1.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox1.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox1.Location = New System.Drawing.Point(17, 83)
-        Me.Guna2CheckBox1.Name = "Guna2CheckBox1"
-        Me.Guna2CheckBox1.Size = New System.Drawing.Size(219, 24)
-        Me.Guna2CheckBox1.TabIndex = 38
-        Me.Guna2CheckBox1.Text = "Sexually Transmitted Disease"
-        Me.Guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox1.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox1.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox1.UseVisualStyleBackColor = False
-        '
         'Label15
         '
         Me.Label15.AutoSize = True
@@ -624,72 +897,6 @@ Partial Class Form3
         Me.Label12.TabIndex = 26
         Me.Label12.Text = "Maternal History"
         '
-        'Guna2CheckBox5
-        '
-        Me.Guna2CheckBox5.AutoSize = True
-        Me.Guna2CheckBox5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox5.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox5.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox5.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox5.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox5.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox5.Location = New System.Drawing.Point(17, 203)
-        Me.Guna2CheckBox5.Name = "Guna2CheckBox5"
-        Me.Guna2CheckBox5.Size = New System.Drawing.Size(161, 24)
-        Me.Guna2CheckBox5.TabIndex = 42
-        Me.Guna2CheckBox5.Text = "Cyst/Tumors/Cancer"
-        Me.Guna2CheckBox5.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox5.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox5.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox5.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox4
-        '
-        Me.Guna2CheckBox4.AutoSize = True
-        Me.Guna2CheckBox4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox4.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox4.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox4.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox4.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox4.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox4.Location = New System.Drawing.Point(17, 173)
-        Me.Guna2CheckBox4.Name = "Guna2CheckBox4"
-        Me.Guna2CheckBox4.Size = New System.Drawing.Size(214, 24)
-        Me.Guna2CheckBox4.TabIndex = 41
-        Me.Guna2CheckBox4.Text = "Skin/Lymph Glands Disorder"
-        Me.Guna2CheckBox4.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox4.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox4.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox4.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox3
-        '
-        Me.Guna2CheckBox3.AutoSize = True
-        Me.Guna2CheckBox3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox3.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox3.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox3.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox3.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox3.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox3.Location = New System.Drawing.Point(17, 143)
-        Me.Guna2CheckBox3.Name = "Guna2CheckBox3"
-        Me.Guna2CheckBox3.Size = New System.Drawing.Size(222, 24)
-        Me.Guna2CheckBox3.TabIndex = 40
-        Me.Guna2CheckBox3.Text = "Rheumatism/Gout/Joint Pains"
-        Me.Guna2CheckBox3.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox3.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox3.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox3.UseVisualStyleBackColor = False
-        '
         'Guna2TextBox7
         '
         Me.Guna2TextBox7.Animated = True
@@ -736,72 +943,6 @@ Partial Class Form3
         Me.Guna2Separator1.Size = New System.Drawing.Size(919, 10)
         Me.Guna2Separator1.TabIndex = 23
         '
-        'Guna2CheckBox10
-        '
-        Me.Guna2CheckBox10.AutoSize = True
-        Me.Guna2CheckBox10.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox10.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox10.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox10.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox10.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox10.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox10.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox10.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox10.Location = New System.Drawing.Point(322, 113)
-        Me.Guna2CheckBox10.Name = "Guna2CheckBox10"
-        Me.Guna2CheckBox10.Size = New System.Drawing.Size(253, 24)
-        Me.Guna2CheckBox10.TabIndex = 46
-        Me.Guna2CheckBox10.Text = "Lung Problems : Prolonged Cough"
-        Me.Guna2CheckBox10.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox10.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox10.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox10.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox10.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox7
-        '
-        Me.Guna2CheckBox7.AutoSize = True
-        Me.Guna2CheckBox7.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox7.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox7.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox7.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox7.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox7.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox7.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox7.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox7.Location = New System.Drawing.Point(322, 53)
-        Me.Guna2CheckBox7.Name = "Guna2CheckBox7"
-        Me.Guna2CheckBox7.Size = New System.Drawing.Size(106, 24)
-        Me.Guna2CheckBox7.TabIndex = 44
-        Me.Guna2CheckBox7.Text = "Chicken Pox"
-        Me.Guna2CheckBox7.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox7.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox7.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox7.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox7.UseVisualStyleBackColor = False
-        '
-        'Guna2CheckBox6
-        '
-        Me.Guna2CheckBox6.AutoSize = True
-        Me.Guna2CheckBox6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox6.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox6.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox6.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox6.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox6.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox6.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox6.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox6.Location = New System.Drawing.Point(17, 233)
-        Me.Guna2CheckBox6.Name = "Guna2CheckBox6"
-        Me.Guna2CheckBox6.Size = New System.Drawing.Size(81, 24)
-        Me.Guna2CheckBox6.TabIndex = 43
-        Me.Guna2CheckBox6.Text = "Measles"
-        Me.Guna2CheckBox6.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox6.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox6.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox6.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox6.UseVisualStyleBackColor = False
-        '
         'Label10
         '
         Me.Label10.AutoSize = True
@@ -813,28 +954,6 @@ Partial Class Form3
         Me.Label10.TabIndex = 20
         Me.Label10.Text = "Operation"
         '
-        'Guna2CheckBox9
-        '
-        Me.Guna2CheckBox9.AutoSize = True
-        Me.Guna2CheckBox9.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox9.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox9.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox9.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox9.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox9.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox9.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox9.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox9.Location = New System.Drawing.Point(322, 83)
-        Me.Guna2CheckBox9.Name = "Guna2CheckBox9"
-        Me.Guna2CheckBox9.Size = New System.Drawing.Size(77, 24)
-        Me.Guna2CheckBox9.TabIndex = 45
-        Me.Guna2CheckBox9.Text = "Mumps"
-        Me.Guna2CheckBox9.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox9.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox9.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox9.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox9.UseVisualStyleBackColor = False
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
@@ -845,213 +964,6 @@ Partial Class Form3
         Me.Label9.Size = New System.Drawing.Size(112, 20)
         Me.Label9.TabIndex = 17
         Me.Label9.Text = "Alcohol Drinker"
-        '
-        'Guna2GroupBox1
-        '
-        Me.Guna2GroupBox1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox17)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox16)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox15)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox14)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox13)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox12)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox11)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox10)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox9)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox7)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox6)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox5)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox4)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox3)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox2)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox1)
-        Me.Guna2GroupBox1.Controls.Add(Me.Guna2CheckBox8)
-        Me.Guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(198, Byte), Integer))
-        Me.Guna2GroupBox1.FillColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2GroupBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.Guna2GroupBox1.Location = New System.Drawing.Point(9, 21)
-        Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
-        Me.Guna2GroupBox1.ShadowDecoration.Parent = Me.Guna2GroupBox1
-        Me.Guna2GroupBox1.Size = New System.Drawing.Size(925, 267)
-        Me.Guna2GroupBox1.TabIndex = 1
-        Me.Guna2GroupBox1.Text = "MEDICAL HISTORY"
-        '
-        'Guna2CheckBox8
-        '
-        Me.Guna2CheckBox8.AutoSize = True
-        Me.Guna2CheckBox8.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CheckBox8.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox8.CheckedState.BorderRadius = 2
-        Me.Guna2CheckBox8.CheckedState.BorderThickness = 0
-        Me.Guna2CheckBox8.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CheckBox8.CheckMarkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Guna2CheckBox8.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CheckBox8.ForeColor = System.Drawing.Color.Black
-        Me.Guna2CheckBox8.Location = New System.Drawing.Point(17, 53)
-        Me.Guna2CheckBox8.Name = "Guna2CheckBox8"
-        Me.Guna2CheckBox8.Size = New System.Drawing.Size(121, 24)
-        Me.Guna2CheckBox8.TabIndex = 37
-        Me.Guna2CheckBox8.Text = "Kidney Stones"
-        Me.Guna2CheckBox8.UncheckedState.BorderColor = System.Drawing.Color.White
-        Me.Guna2CheckBox8.UncheckedState.BorderRadius = 2
-        Me.Guna2CheckBox8.UncheckedState.BorderThickness = 0
-        Me.Guna2CheckBox8.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.Guna2CheckBox8.UseVisualStyleBackColor = False
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(69, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Guna2Button2)
-        Me.Panel1.Controls.Add(Me.Guna2Button1)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(933, 54)
-        Me.Panel1.TabIndex = 3
-        '
-        'Guna2Button2
-        '
-        Me.Guna2Button2.Animated = True
-        Me.Guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
-        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.HoverState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Location = New System.Drawing.Point(905, 7)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Size = New System.Drawing.Size(41, 39)
-        Me.Guna2Button2.TabIndex = 8
-        '
-        'Guna2Button1
-        '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Location = New System.Drawing.Point(1026, 7)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Size = New System.Drawing.Size(41, 39)
-        Me.Guna2Button1.TabIndex = 7
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(42, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(183, 37)
-        Me.Label1.TabIndex = 6
-        Me.Label1.Text = "MEDICAL DEP"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 1)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(42, 51)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 3
-        Me.PictureBox1.TabStop = False
-        '
-        'Guna2Elipse1
-        '
-        Me.Guna2Elipse1.BorderRadius = 7
-        Me.Guna2Elipse1.TargetControl = Me
-        '
-        'Guna2GradientPanel1
-        '
-        Me.Guna2GradientPanel1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientButton2)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GroupBox2)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GroupBox1)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2GradientPanel2)
-        Me.Guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.WhiteSmoke
-        Me.Guna2GradientPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
-        Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
-        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(933, 666)
-        Me.Guna2GradientPanel1.TabIndex = 4
-        '
-        'Guna2GradientButton2
-        '
-        Me.Guna2GradientButton2.Animated = True
-        Me.Guna2GradientButton2.BorderRadius = 3
-        Me.Guna2GradientButton2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom
-        Me.Guna2GradientButton2.CheckedState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.CustomImages.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.FillColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(4, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2GradientButton2.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GradientButton2.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton2.HoverState.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2GradientButton2.Location = New System.Drawing.Point(844, 616)
-        Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
-        Me.Guna2GradientButton2.ShadowDecoration.Parent = Me.Guna2GradientButton2
-        Me.Guna2GradientButton2.Size = New System.Drawing.Size(93, 32)
-        Me.Guna2GradientButton2.TabIndex = 55
-        Me.Guna2GradientButton2.Text = "      SAVE"
-        '
-        'Guna2GroupBox2
-        '
-        Me.Guna2GroupBox2.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox23)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox22)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox21)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox20)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox19)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2CheckBox18)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox12)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label16)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox11)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label15)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox10)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label14)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox9)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label13)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox8)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label12)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox7)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label11)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2Separator1)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label10)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label9)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label8)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox6)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label7)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox5)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label6)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox4)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label5)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox3)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label4)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox2)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label3)
-        Me.Guna2GroupBox2.Controls.Add(Me.Guna2TextBox1)
-        Me.Guna2GroupBox2.Controls.Add(Me.Label2)
-        Me.Guna2GroupBox2.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(198, Byte), Integer))
-        Me.Guna2GroupBox2.FillColor = System.Drawing.Color.WhiteSmoke
-        Me.Guna2GroupBox2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2GroupBox2.ForeColor = System.Drawing.Color.White
-        Me.Guna2GroupBox2.Location = New System.Drawing.Point(12, 294)
-        Me.Guna2GroupBox2.Name = "Guna2GroupBox2"
-        Me.Guna2GroupBox2.ShadowDecoration.Parent = Me.Guna2GroupBox2
-        Me.Guna2GroupBox2.Size = New System.Drawing.Size(925, 319)
-        Me.Guna2GroupBox2.TabIndex = 54
-        Me.Guna2GroupBox2.Text = "PHYSICAL EXAMINATION"
         '
         'Label8
         '
@@ -1294,27 +1206,64 @@ Partial Class Form3
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Height"
         '
-        'Form3
+        'Guna2Button1
+        '
+        Me.Guna2Button1.Animated = True
+        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.BackgroundImage = Global.Biohin_moko.My.Resources.Resources.close_window_96px
+        Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
+        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Location = New System.Drawing.Point(935, 3)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Size = New System.Drawing.Size(43, 48)
+        Me.Guna2Button1.TabIndex = 5
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.Biohin_moko.My.Resources.Resources.heart_plus_48px
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(42, 51)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
+        '
+        'Sample
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(933, 666)
-        Me.Controls.Add(Me.Panel1)
+        Me.ClientSize = New System.Drawing.Size(981, 702)
+        Me.Controls.Add(Me.Guna2GroupBox1)
+        Me.Controls.Add(Me.Guna2GroupBox2)
         Me.Controls.Add(Me.Guna2GradientPanel1)
+        Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Form3"
-        Me.Text = "Form3"
-        Me.Guna2GroupBox1.ResumeLayout(False)
-        Me.Guna2GroupBox1.PerformLayout()
+        Me.Name = "Sample"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Sample"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2GradientPanel1.ResumeLayout(False)
+        Me.Guna2GroupBox1.ResumeLayout(False)
+        Me.Guna2GroupBox1.PerformLayout()
         Me.Guna2GroupBox2.ResumeLayout(False)
         Me.Guna2GroupBox2.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2GroupBox1 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2CheckBox17 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2CheckBox16 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2CheckBox15 As Guna.UI2.WinForms.Guna2CheckBox
@@ -1322,6 +1271,17 @@ Partial Class Form3
     Friend WithEvents Guna2CheckBox13 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2CheckBox12 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2CheckBox11 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox10 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox9 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox7 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox6 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox5 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox4 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox3 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox2 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox1 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2CheckBox8 As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Guna2GroupBox2 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2CheckBox23 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2CheckBox22 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2CheckBox21 As Guna.UI2.WinForms.Guna2CheckBox
@@ -1331,9 +1291,6 @@ Partial Class Form3
     Friend WithEvents Guna2TextBox12 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Guna2TextBox11 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
-    Friend WithEvents Guna2CheckBox2 As Guna.UI2.WinForms.Guna2CheckBox
-    Friend WithEvents Guna2CheckBox1 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Guna2TextBox10 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label14 As System.Windows.Forms.Label
@@ -1341,29 +1298,11 @@ Partial Class Form3
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Guna2TextBox8 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
-    Friend WithEvents Guna2CheckBox5 As Guna.UI2.WinForms.Guna2CheckBox
-    Friend WithEvents Guna2CheckBox4 As Guna.UI2.WinForms.Guna2CheckBox
-    Friend WithEvents Guna2CheckBox3 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Guna2TextBox7 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2CheckBox10 As Guna.UI2.WinForms.Guna2CheckBox
-    Friend WithEvents Guna2CheckBox7 As Guna.UI2.WinForms.Guna2CheckBox
-    Friend WithEvents Guna2CheckBox6 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents Guna2CheckBox9 As Guna.UI2.WinForms.Guna2CheckBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents Guna2GroupBox1 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents Guna2CheckBox8 As Guna.UI2.WinForms.Guna2CheckBox
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
-    Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GroupBox2 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Guna2TextBox6 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label7 As System.Windows.Forms.Label

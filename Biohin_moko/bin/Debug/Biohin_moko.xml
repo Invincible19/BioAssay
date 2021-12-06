@@ -43,6 +43,10 @@ Biohin_moko
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.add_new_64px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Biohin_moko.My.Resources.Resources.business_100px">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -76,6 +80,10 @@ Biohin_moko
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Biohin_moko.My.Resources.Resources.cll5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.close_window_96px">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -135,6 +143,10 @@ Biohin_moko
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.heart_plus_48px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Biohin_moko.My.Resources.Resources.history_log">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -179,11 +191,39 @@ Biohin_moko
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.next_page_48px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.next_page_48px1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.next_page_48px2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Biohin_moko.My.Resources.Resources.nurse_100px">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Biohin_moko.My.Resources.Resources.orga">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.plus_96px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.plus_96px1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.plus_96px2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Biohin_moko.My.Resources.Resources.plus_96px3">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -19,3 +19,29 @@ C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohi
 C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\bin\Debug\en\Microsoft.Expression.WebServer.resources.dll
 C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.BackupnRestore.resources
 C:\Users\jojol\Documents\Visual Studio 2012\Projects\Bio-Assay\Biohin_moko\Biohin_moko\obj\Debug\Biohin_moko.ManageAccount.resources
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\Biohin_moko.exe.config
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.exe
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.xml
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.pdb
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\Biohin_moko.exe
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\Biohin_moko.pdb
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\Biohin_moko.xml
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\Guna.UI2.dll
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\Microsoft.Expression.Utility.dll
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\Microsoft.Expression.WebServer.exe
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\en\Microsoft.Expression.Utility.resources.dll
+E:\vb.net practive\BioAssay\Biohin_moko\bin\Debug\en\Microsoft.Expression.WebServer.resources.dll
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\BioAssay.vbprojResolveAssemblyReference.cache
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.BackupnRestore.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Dashboard.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Form1.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.LogHistory.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.ManageAccount.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Organizational_Chart.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Progressbar.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.LOGIN.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Resources.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Settings.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\BioAssay.vbproj.GenerateResource.Cache
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Sample.resources
+E:\vb.net practive\BioAssay\Biohin_moko\obj\Debug\Biohin_moko.Sample2.resources
